@@ -4,7 +4,94 @@
 <head>
     <title>Styling Exercise</title>
     <style>
-        /* Your CSS code goes here */
+        body {
+          height: 100vh;
+          padding: 0;
+          margin: 0;
+          background-color: crimson;
+        }
+
+        .header {
+           background-color: blue;
+           color: whitesmoke;
+           width: 80%;
+           height: 100px;
+           padding: 20px 50px;
+           margin: 10px 80px;
+        }
+
+        h1{
+            font-size: 32px;
+            font-weight: 600;
+        }
+
+        nav > ul {
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 20px;
+            color: whitesmoke;
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+          
+        a:hover {
+            cursor: pointer;
+            color: magenta;
+        }
+
+        .main {
+             background-color: teal;
+             width: 90%;
+             height: 300px;
+             padding: 20px 50px;
+             margin: 20px 20px;
+        }
+
+        #first-item {
+           border: 2.5px dotted blue;
+           width: 50px;
+           height: 20px;
+        }
+
+        #first-item:hover {
+            border: 2px solid magenta;
+        }
+
+        main > ul {
+            color: whitesmoke;
+        }
+       
+        h2 {
+           color: whitesmoke;
+           padding: 5px 10px;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            padding: 5px 10px;
+            color: whitesmoke;
+        }
+
+        p::first-letter {
+             font-size: larger;
+             color: blue;
+             font-weight: 800;
+        }
+
+        .footer {
+            background-color: black;
+            color: whitesmoke;
+            width: 90%;
+            height: 80px;
+            padding: 20px 50px;
+            margin: 20px 20px;
+        }
+
     </style>
 </head>
 
